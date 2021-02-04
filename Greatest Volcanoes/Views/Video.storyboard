@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pQl-2f-Z26">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Videos-->
+        <scene sceneID="X3g-yA-Sdz">
+            <objects>
+                <viewController storyboardIdentifier="video" id="dhy-AU-VFt" customClass="VideoViewController" customModule="Greatest_Volcanoes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="10R-43-nFX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXb-K4-Oxs" userLabel="Container View">
+                                <rect key="frame" x="12" y="103" width="390" height="733"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="j3j-0c-CFb">
+                                        <rect key="frame" x="11" y="11" width="368" height="711"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volcanic eruption explained " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYG-0Z-QJt">
+                                                <rect key="frame" x="0.0" y="0.0" width="368" height="27.5"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJZ-iI-ofz" customClass="WKYTPlayerView">
+                                                <rect key="frame" x="0.0" y="37.5" width="368" height="185"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="185" id="z1l-na-R9Q"/>
+                                                </constraints>
+                                            </view>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="247" verticalCompressionResistancePriority="747" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x0d-UO-Kq9">
+                                                <rect key="frame" x="0.0" y="232.5" width="368" height="478.5"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Dig into the science of how new volcanoes form, and what causes their unpredictable eruptions.
+ 
+In February of 1942, Mexican farmer Dionisio Pulido thought he heard thunder coming from his cornfield. However, the sound wasn’t coming from the sky. The source was a large, smoking crack emitting gas and ejecting rocks, and would come to be known as the volcano Paricutin. Where do new volcanoes like this come from, and what triggers their unpredictable eruption? Steven Anderson investigates.</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="IJZ-iI-ofz" secondAttribute="trailing" id="3FQ-h3-8pA"/>
+                                            <constraint firstItem="IJZ-iI-ofz" firstAttribute="leading" secondItem="j3j-0c-CFb" secondAttribute="leading" id="Ryy-gF-fr7"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="j3j-0c-CFb" secondAttribute="trailing" constant="11" id="2fr-lB-PWf"/>
+                                    <constraint firstItem="j3j-0c-CFb" firstAttribute="top" secondItem="sXb-K4-Oxs" secondAttribute="top" constant="11" id="LND-VO-dzV"/>
+                                    <constraint firstAttribute="bottom" secondItem="j3j-0c-CFb" secondAttribute="bottom" constant="11" id="PfE-Ed-5IS"/>
+                                    <constraint firstItem="j3j-0c-CFb" firstAttribute="leading" secondItem="sXb-K4-Oxs" secondAttribute="leading" constant="11" id="obE-Ga-Sgk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="19J-KQ-dPf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sXb-K4-Oxs" firstAttribute="top" secondItem="19J-KQ-dPf" secondAttribute="top" constant="15" id="2Bv-xx-2YI"/>
+                            <constraint firstItem="sXb-K4-Oxs" firstAttribute="leading" secondItem="19J-KQ-dPf" secondAttribute="leading" constant="12" id="K5d-2f-mg6"/>
+                            <constraint firstAttribute="bottom" secondItem="sXb-K4-Oxs" secondAttribute="bottom" constant="60" id="Q2M-fe-xAh"/>
+                            <constraint firstItem="19J-KQ-dPf" firstAttribute="trailing" secondItem="sXb-K4-Oxs" secondAttribute="trailing" constant="12" id="vG7-zI-ofi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Videos" id="EPH-pW-zf2"/>
+                    <connections>
+                        <outlet property="containerView" destination="sXb-K4-Oxs" id="Q3f-Od-0Di"/>
+                        <outlet property="playerView" destination="IJZ-iI-ofz" id="ivR-2s-Ymt"/>
+                        <outlet property="textView" destination="x0d-UO-Kq9" id="6pl-EK-eE6"/>
+                        <outlet property="tittleLabel" destination="bYG-0Z-QJt" id="MEF-Eu-MSQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oFg-5A-o3p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1397" y="1076"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FsX-6O-Fa4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pQl-2f-Z26" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ma6-nD-xK9">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dhy-AU-VFt" kind="relationship" relationship="rootViewController" id="M9J-pi-lxK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iJ4-Qs-qtO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="1076"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

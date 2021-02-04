@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386D382325CC4D4F0082E480 /* Volcanoes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D382225CC4D4F0082E480 /* Volcanoes.storyboard */; };
+		386D382725CC4D8D0082E480 /* Eruptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D382625CC4D8D0082E480 /* Eruptions.storyboard */; };
+		386D382A25CC4DBE0082E480 /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D382925CC4DBE0082E480 /* Video.storyboard */; };
+		386D382E25CC4E290082E480 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D382D25CC4E290082E480 /* Map.storyboard */; };
+		386D383225CC4E740082E480 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D383125CC4E740082E480 /* Settings.storyboard */; };
+		386D383725CC4FB90082E480 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D383625CC4FB90082E480 /* Onboarding.storyboard */; };
+		386D383A25CC4FF50082E480 /* Structure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D383925CC4FF50082E480 /* Structure.storyboard */; };
+		3881671C25C17557001F402E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881671B25C17557001F402E /* AppDelegate.swift */; };
+		3881674A25C17577001F402E /* SideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673225C17576001F402E /* SideInTransition.swift */; };
+		3881674B25C17577001F402E /* VolcanoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673325C17576001F402E /* VolcanoesViewController.swift */; };
+		3881674C25C17577001F402E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673425C17576001F402E /* MapViewController.swift */; };
+		3881674D25C17577001F402E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673525C17576001F402E /* OnboardingViewController.swift */; };
+		3881674E25C17577001F402E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673625C17576001F402E /* InfoViewController.swift */; };
+		3881674F25C17577001F402E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673725C17576001F402E /* VideoViewController.swift */; };
+		3881675025C17577001F402E /* StructureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673825C17576001F402E /* StructureViewController.swift */; };
+		3881675125C17577001F402E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673925C17576001F402E /* MenuViewController.swift */; };
+		3881675225C17577001F402E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673A25C17576001F402E /* SettingsViewController.swift */; };
+		3881675325C17577001F402E /* EruptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673B25C17576001F402E /* EruptionViewController.swift */; };
+		3881675425C17577001F402E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3881673D25C17577001F402E /* LaunchScreen.storyboard */; };
+		3881675525C17577001F402E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881673E25C17577001F402E /* TableViewCell.swift */; };
+		3881675625C17577001F402E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3881673F25C17577001F402E /* Main.storyboard */; };
+		3881675825C17577001F402E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3881674325C17577001F402E /* Assets.xcassets */; };
+		3881675B25C17577001F402E /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881674725C17577001F402E /* CacheManager.swift */; };
+		3881675C25C17577001F402E /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881674825C17577001F402E /* JSONManager.swift */; };
+		3881675D25C17577001F402E /* JSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881674925C17577001F402E /* JSONData.swift */; };
+		A093898A90DB2A277CF3176E /* Pods_Greatest_Volcanoes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF86CDD7D85CE437FE2639ED /* Pods_Greatest_Volcanoes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09A6FAE2392471AD370AA0D2 /* Pods-Greatest Volcanoes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greatest Volcanoes.debug.xcconfig"; path = "Target Support Files/Pods-Greatest Volcanoes/Pods-Greatest Volcanoes.debug.xcconfig"; sourceTree = "<group>"; };
+		386D382225CC4D4F0082E480 /* Volcanoes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Volcanoes.storyboard; sourceTree = "<group>"; };
+		386D382625CC4D8D0082E480 /* Eruptions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Eruptions.storyboard; sourceTree = "<group>"; };
+		386D382925CC4DBE0082E480 /* Video.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Video.storyboard; sourceTree = "<group>"; };
+		386D382D25CC4E290082E480 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		386D383125CC4E740082E480 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		386D383625CC4FB90082E480 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		386D383925CC4FF50082E480 /* Structure.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Structure.storyboard; sourceTree = "<group>"; };
+		3881671825C17557001F402E /* Greatest Volcanoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Greatest Volcanoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3881671B25C17557001F402E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3881672925C1755A001F402E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3881673225C17576001F402E /* SideInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideInTransition.swift; sourceTree = "<group>"; };
+		3881673325C17576001F402E /* VolcanoesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolcanoesViewController.swift; sourceTree = "<group>"; };
+		3881673425C17576001F402E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3881673525C17576001F402E /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		3881673625C17576001F402E /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		3881673725C17576001F402E /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		3881673825C17576001F402E /* StructureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructureViewController.swift; sourceTree = "<group>"; };
+		3881673925C17576001F402E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3881673A25C17576001F402E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3881673B25C17576001F402E /* EruptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EruptionViewController.swift; sourceTree = "<group>"; };
+		3881673D25C17577001F402E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3881673E25C17577001F402E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3881674025C17577001F402E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3881674325C17577001F402E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3881674725C17577001F402E /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		3881674825C17577001F402E /* JSONManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		3881674925C17577001F402E /* JSONData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONData.swift; sourceTree = "<group>"; };
+		3E5102971BABDB6888BA6A4E /* Pods-Greatest Volcanoes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greatest Volcanoes.release.xcconfig"; path = "Target Support Files/Pods-Greatest Volcanoes/Pods-Greatest Volcanoes.release.xcconfig"; sourceTree = "<group>"; };
+		DF86CDD7D85CE437FE2639ED /* Pods_Greatest_Volcanoes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greatest_Volcanoes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3881671525C17557001F402E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A093898A90DB2A277CF3176E /* Pods_Greatest_Volcanoes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3881670F25C17557001F402E = {
+			isa = PBXGroup;
+			children = (
+				3881671A25C17557001F402E /* Greatest Volcanoes */,
+				3881671925C17557001F402E /* Products */,
+				BE6FB9F7E99AFB2C51A8EF5C /* Pods */,
+				EA0274E5DCBAB8D9B6EE4667 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3881671925C17557001F402E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3881671825C17557001F402E /* Greatest Volcanoes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3881671A25C17557001F402E /* Greatest Volcanoes */ = {
+			isa = PBXGroup;
+			children = (
+				3881674125C17577001F402E /* Supporting Files */,
+				3881674625C17577001F402E /* Models */,
+				3881673C25C17576001F402E /* Views */,
+				3881673125C17576001F402E /* Controllers */,
+				3881672925C1755A001F402E /* Info.plist */,
+			);
+			path = "Greatest Volcanoes";
+			sourceTree = "<group>";
+		};
+		3881673125C17576001F402E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3881673225C17576001F402E /* SideInTransition.swift */,
+				3881673925C17576001F402E /* MenuViewController.swift */,
+				3881673525C17576001F402E /* OnboardingViewController.swift */,
+				3881673825C17576001F402E /* StructureViewController.swift */,
+				3881673325C17576001F402E /* VolcanoesViewController.swift */,
+				3881673625C17576001F402E /* InfoViewController.swift */,
+				3881673B25C17576001F402E /* EruptionViewController.swift */,
+				3881673725C17576001F402E /* VideoViewController.swift */,
+				3881673425C17576001F402E /* MapViewController.swift */,
+				3881673A25C17576001F402E /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3881673C25C17576001F402E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3881673D25C17577001F402E /* LaunchScreen.storyboard */,
+				3881673F25C17577001F402E /* Main.storyboard */,
+				386D383625CC4FB90082E480 /* Onboarding.storyboard */,
+				386D383925CC4FF50082E480 /* Structure.storyboard */,
+				386D382225CC4D4F0082E480 /* Volcanoes.storyboard */,
+				386D382625CC4D8D0082E480 /* Eruptions.storyboard */,
+				386D382925CC4DBE0082E480 /* Video.storyboard */,
+				386D382D25CC4E290082E480 /* Map.storyboard */,
+				386D383125CC4E740082E480 /* Settings.storyboard */,
+				3881673E25C17577001F402E /* TableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3881674125C17577001F402E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3881674325C17577001F402E /* Assets.xcassets */,
+				3881671B25C17557001F402E /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3881674625C17577001F402E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3881674725C17577001F402E /* CacheManager.swift */,
+				3881674825C17577001F402E /* JSONManager.swift */,
+				3881674925C17577001F402E /* JSONData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE6FB9F7E99AFB2C51A8EF5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09A6FAE2392471AD370AA0D2 /* Pods-Greatest Volcanoes.debug.xcconfig */,
+				3E5102971BABDB6888BA6A4E /* Pods-Greatest Volcanoes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA0274E5DCBAB8D9B6EE4667 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF86CDD7D85CE437FE2639ED /* Pods_Greatest_Volcanoes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3881671725C17557001F402E /* Greatest Volcanoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3881672C25C1755A001F402E /* Build configuration list for PBXNativeTarget "Greatest Volcanoes" */;
+			buildPhases = (
+				A8F138AF0FA282ECC2CBCA04 /* [CP] Check Pods Manifest.lock */,
+				3881671425C17557001F402E /* Sources */,
+				3881671525C17557001F402E /* Frameworks */,
+				3881671625C17557001F402E /* Resources */,
+				CCFD04D2A148D1A91DFBC2E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Greatest Volcanoes";
+			productName = "Greatest Volcanoes";
+			productReference = 3881671825C17557001F402E /* Greatest Volcanoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3881671025C17557001F402E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					3881671725C17557001F402E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 3881671325C17557001F402E /* Build configuration list for PBXProject "Greatest Volcanoes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3881670F25C17557001F402E;
+			productRefGroup = 3881671925C17557001F402E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3881671725C17557001F402E /* Greatest Volcanoes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3881671625C17557001F402E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3881675425C17577001F402E /* LaunchScreen.storyboard in Resources */,
+				386D382E25CC4E290082E480 /* Map.storyboard in Resources */,
+				386D382325CC4D4F0082E480 /* Volcanoes.storyboard in Resources */,
+				386D383225CC4E740082E480 /* Settings.storyboard in Resources */,
+				386D383A25CC4FF50082E480 /* Structure.storyboard in Resources */,
+				386D382A25CC4DBE0082E480 /* Video.storyboard in Resources */,
+				3881675625C17577001F402E /* Main.storyboard in Resources */,
+				386D383725CC4FB90082E480 /* Onboarding.storyboard in Resources */,
+				386D382725CC4D8D0082E480 /* Eruptions.storyboard in Resources */,
+				3881675825C17577001F402E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8F138AF0FA282ECC2CBCA04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Greatest Volcanoes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFD04D2A148D1A91DFBC2E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Greatest Volcanoes/Pods-Greatest Volcanoes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Greatest Volcanoes/Pods-Greatest Volcanoes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Greatest Volcanoes/Pods-Greatest Volcanoes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3881671425C17557001F402E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3881675525C17577001F402E /* TableViewCell.swift in Sources */,
+				3881675C25C17577001F402E /* JSONManager.swift in Sources */,
+				3881675B25C17577001F402E /* CacheManager.swift in Sources */,
+				3881674A25C17577001F402E /* SideInTransition.swift in Sources */,
+				3881675125C17577001F402E /* MenuViewController.swift in Sources */,
+				3881675225C17577001F402E /* SettingsViewController.swift in Sources */,
+				3881674D25C17577001F402E /* OnboardingViewController.swift in Sources */,
+				3881675325C17577001F402E /* EruptionViewController.swift in Sources */,
+				3881675D25C17577001F402E /* JSONData.swift in Sources */,
+				3881674F25C17577001F402E /* VideoViewController.swift in Sources */,
+				3881674B25C17577001F402E /* VolcanoesViewController.swift in Sources */,
+				3881674E25C17577001F402E /* InfoViewController.swift in Sources */,
+				3881671C25C17557001F402E /* AppDelegate.swift in Sources */,
+				3881675025C17577001F402E /* StructureViewController.swift in Sources */,
+				3881674C25C17577001F402E /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3881673F25C17577001F402E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3881674025C17577001F402E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3881672A25C1755A001F402E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3881672B25C1755A001F402E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3881672D25C1755A001F402E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A6FAE2392471AD370AA0D2 /* Pods-Greatest Volcanoes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Greatest Volcanoes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Greatest-Volcanoes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3881672E25C1755A001F402E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5102971BABDB6888BA6A4E /* Pods-Greatest Volcanoes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Greatest Volcanoes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Greatest-Volcanoes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3881671325C17557001F402E /* Build configuration list for PBXProject "Greatest Volcanoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3881672A25C1755A001F402E /* Debug */,
+				3881672B25C1755A001F402E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3881672C25C1755A001F402E /* Build configuration list for PBXNativeTarget "Greatest Volcanoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3881672D25C1755A001F402E /* Debug */,
+				3881672E25C1755A001F402E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3881671025C17557001F402E /* Project object */;
+}
