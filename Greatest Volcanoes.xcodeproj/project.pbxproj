@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015B719A61B31313549276C0 /* Pods_Greatest_Volcanoes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FE05EE9EF9EA6E009F5EB9 /* Pods_Greatest_Volcanoes.framework */; };
 		386D382325CC4D4F0082E480 /* Volcanoes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D382225CC4D4F0082E480 /* Volcanoes.storyboard */; };
 		386D382725CC4D8D0082E480 /* Eruptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D382625CC4D8D0082E480 /* Eruptions.storyboard */; };
 		386D382A25CC4DBE0082E480 /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386D382925CC4DBE0082E480 /* Video.storyboard */; };
@@ -32,11 +33,9 @@
 		3881675B25C17577001F402E /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881674725C17577001F402E /* CacheManager.swift */; };
 		3881675C25C17577001F402E /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881674825C17577001F402E /* JSONManager.swift */; };
 		3881675D25C17577001F402E /* JSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3881674925C17577001F402E /* JSONData.swift */; };
-		A093898A90DB2A277CF3176E /* Pods_Greatest_Volcanoes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF86CDD7D85CE437FE2639ED /* Pods_Greatest_Volcanoes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09A6FAE2392471AD370AA0D2 /* Pods-Greatest Volcanoes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greatest Volcanoes.debug.xcconfig"; path = "Target Support Files/Pods-Greatest Volcanoes/Pods-Greatest Volcanoes.debug.xcconfig"; sourceTree = "<group>"; };
 		386D382225CC4D4F0082E480 /* Volcanoes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Volcanoes.storyboard; sourceTree = "<group>"; };
 		386D382625CC4D8D0082E480 /* Eruptions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Eruptions.storyboard; sourceTree = "<group>"; };
 		386D382925CC4DBE0082E480 /* Video.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Video.storyboard; sourceTree = "<group>"; };
@@ -64,8 +63,9 @@
 		3881674725C17577001F402E /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		3881674825C17577001F402E /* JSONManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 		3881674925C17577001F402E /* JSONData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONData.swift; sourceTree = "<group>"; };
-		3E5102971BABDB6888BA6A4E /* Pods-Greatest Volcanoes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greatest Volcanoes.release.xcconfig"; path = "Target Support Files/Pods-Greatest Volcanoes/Pods-Greatest Volcanoes.release.xcconfig"; sourceTree = "<group>"; };
-		DF86CDD7D85CE437FE2639ED /* Pods_Greatest_Volcanoes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greatest_Volcanoes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61036A225FB37C64FAC215BA /* Pods-Greatest Volcanoes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greatest Volcanoes.debug.xcconfig"; path = "Target Support Files/Pods-Greatest Volcanoes/Pods-Greatest Volcanoes.debug.xcconfig"; sourceTree = "<group>"; };
+		64E4175E098409D88480B06F /* Pods-Greatest Volcanoes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greatest Volcanoes.release.xcconfig"; path = "Target Support Files/Pods-Greatest Volcanoes/Pods-Greatest Volcanoes.release.xcconfig"; sourceTree = "<group>"; };
+		74FE05EE9EF9EA6E009F5EB9 /* Pods_Greatest_Volcanoes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greatest_Volcanoes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A093898A90DB2A277CF3176E /* Pods_Greatest_Volcanoes.framework in Frameworks */,
+				015B719A61B31313549276C0 /* Pods_Greatest_Volcanoes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				3881671A25C17557001F402E /* Greatest Volcanoes */,
 				3881671925C17557001F402E /* Products */,
 				BE6FB9F7E99AFB2C51A8EF5C /* Pods */,
-				EA0274E5DCBAB8D9B6EE4667 /* Frameworks */,
+				88918DD263115B3F7A1D1F19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,21 +163,21 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		88918DD263115B3F7A1D1F19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74FE05EE9EF9EA6E009F5EB9 /* Pods_Greatest_Volcanoes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE6FB9F7E99AFB2C51A8EF5C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				09A6FAE2392471AD370AA0D2 /* Pods-Greatest Volcanoes.debug.xcconfig */,
-				3E5102971BABDB6888BA6A4E /* Pods-Greatest Volcanoes.release.xcconfig */,
+				61036A225FB37C64FAC215BA /* Pods-Greatest Volcanoes.debug.xcconfig */,
+				64E4175E098409D88480B06F /* Pods-Greatest Volcanoes.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		EA0274E5DCBAB8D9B6EE4667 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DF86CDD7D85CE437FE2639ED /* Pods_Greatest_Volcanoes.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,11 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3881672C25C1755A001F402E /* Build configuration list for PBXNativeTarget "Greatest Volcanoes" */;
 			buildPhases = (
-				A8F138AF0FA282ECC2CBCA04 /* [CP] Check Pods Manifest.lock */,
+				0DC342764DB78B58316DFAC2 /* [CP] Check Pods Manifest.lock */,
 				3881671425C17557001F402E /* Sources */,
 				3881671525C17557001F402E /* Frameworks */,
 				3881671625C17557001F402E /* Resources */,
-				CCFD04D2A148D1A91DFBC2E5 /* [CP] Embed Pods Frameworks */,
+				CBD81AA0013AB0818E5422E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,7 +255,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A8F138AF0FA282ECC2CBCA04 /* [CP] Check Pods Manifest.lock */ = {
+		0DC342764DB78B58316DFAC2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,7 +277,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CCFD04D2A148D1A91DFBC2E5 /* [CP] Embed Pods Frameworks */ = {
+		CBD81AA0013AB0818E5422E1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,7 +451,7 @@
 		};
 		3881672D25C1755A001F402E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09A6FAE2392471AD370AA0D2 /* Pods-Greatest Volcanoes.debug.xcconfig */;
+			baseConfigurationReference = 61036A225FB37C64FAC215BA /* Pods-Greatest Volcanoes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,7 +472,7 @@
 		};
 		3881672E25C1755A001F402E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E5102971BABDB6888BA6A4E /* Pods-Greatest Volcanoes.release.xcconfig */;
+			baseConfigurationReference = 64E4175E098409D88480B06F /* Pods-Greatest Volcanoes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

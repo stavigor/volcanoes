@@ -3,7 +3,6 @@
 //  Greatest Volcanoes
 //
 //  Created by Игорь Растегаев on 27.01.2021.
-//  Copyright © 2020 Daniil Marusenko. All rights reserved.
 //
 
 import UIKit
